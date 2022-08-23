@@ -22,7 +22,6 @@ class ResultsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         resultsLabel.text = totalPerPerson.description
         settingsLabel.text = "Split between \(people) people, with \(tip)% tip."
     }
